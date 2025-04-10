@@ -12,7 +12,7 @@ router.get('/', async (req: Request, res: Response) => {
         protocol: config.xspf_protocol || req.protocol,
         host: config.xspf_host || req.get('X-Forwarded-Host') || req.get('Host'),
         pathPrefix: config.xspf_pathPrefix,
-        path: '12'
+        path: '1'
     });
 });
 
