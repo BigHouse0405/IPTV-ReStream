@@ -11,7 +11,8 @@ router.get('/', async (req: Request, res: Response) => {
         stations: stationProvider.stations,
         protocol: config.xspf_protocol || req.protocol,
         host: config.xspf_host || req.get('X-Forwarded-Host') || req.get('Host'),
-        pathPrefix: config.xspf_pathPrefix
+        pathPrefix: config.xspf_pathPrefix,
+        path: '12'
     });
 });
 
