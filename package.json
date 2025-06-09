@@ -10,24 +10,24 @@
     "lint": "eslint . --ext .ts --max-warnings 0"
   },
   "dependencies": {
-    "debug": "^4.4.0",
+    "debug": "^4.4.1",
     "ejs": "^3.1.10",
-    "express": "^4.21.2",
+    "express": "^5.1.0",
     "html-escaper": "^3.0.3",
     "morgan": "^1.10.0",
     "xml2js": "^0.6.0"
   },
   "devDependencies": {
     "@types/debug": "^4.1.12",
-    "@types/express": "^5.0.0",
+    "@types/express": "^5.0.3",
     "@types/html-escaper": "^3.0.4",
-    "@types/http-errors": "^2.0.4",
-    "@types/morgan": "^1.9.9",
-    "@types/node": "^22.13.10",
+    "@types/http-errors": "^2.0.5",
+    "@types/morgan": "^1.9.10",
+    "@types/node": "^22.15.30",
     "@types/xml2js": "^0.4.14",
-    "@typescript-eslint/eslint-plugin": "^8.26.1",
+    "@typescript-eslint/eslint-plugin": "^8.33.1",
     "@typescript-eslint/parser": "^8.26.1",
-    "eslint": "^8.53.0",
-    "typescript": "^5.8.2"
+    "eslint": "^9.28.0",
+    "typescript": "^5.8.3"
   }
 }
